@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      media=" screen and (min-width: 500px )"
+      href="desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      media=" screen and (max-width: 500px)"
+      href="mobile.css"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="section1">
+        <div id="input">
+          <p>Day</p>
+          <input id="day" type="number" placeholder="DD" />
+        </div>
+        <div id="input">
+          <p>Month</p>
+          <input id="month" type="number" placeholder="MM" />
+        </div>
+        <div id="input">
+          <p>Year</p>
+          <input id="year" type="number" placeholder="YYYY" />
+        </div>
+      </div>
+      <div id="section2">
+        <div id="line">
+          <hr size="10" />
+        </div>
+        <button onclick="myFunction()" id="arrow">
+          <img
+            src="./assets/images/icon-arrow.svg"
+            width="80vw"
+            height="70vh"
+          />
+        </button>
+      </div>
+      <div id="section3">
+        <div>
+          <p id="out-year">--</p>
+
+          &nbsp years<br />
+        </div>
+        <div>
+          <p id="out-month">--</p>
+          &nbsp months<br />
+        </div>
+        <div>
+          <p id="out-day">--</p>
+          &nbsp days
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/gamakgrover2002">Gamak Grover</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

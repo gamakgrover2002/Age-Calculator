@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#container {
+  font-family: "./assets/fonts/Poppins-BoldItalic.ttf";
+  width: 50vw;
+  height: 85vh;
+  padding-left: 5vw;
+  border-bottom-right-radius: 40%;
+  position: absolute;
+  top: 10vh;
+  left: 20vw;
+  background-color: white;
+}
+body {
+  background-color: rgba(211, 211, 211, 0.85);
+}
+#input > p {
+  align-items: baseline;
+  font-size: 30px;
+  padding-top: 5vh;
+}
+#input > input {
+  border-radius: 5px;
+  width: 8vw;
+  font-size: 40px;
+  height: 10vh;
+  padding-left: 2vw;
+  text-align: justify;
+}
+#section1 {
+  display: flex;
+  gap: 2vw;
+  margin-bottom: 5vh;
+}
+hr {
+  height: 2px;
+
+  color: lightgray;
+}
+#section2 {
+  display: flex;
+  height: 10vh;
+}
+#arrow {
+  height: 12.5vh;
+  width: 6.75vw;
+  background-color: #864dfd;
+  border-radius: 50%;
+  text-align: center;
+  border: none;
+}
+#arrow:hover {
+  cursor: pointer;
+}
+#line {
+  margin-top: 5vh;
+  width: 40vw;
+}
+#section3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 6vw;
+  font-weight: bold;
+}
+#out-day,
+#out-year,
+#out-month {
+  color: #864dfd;
+}
+#section3 > div {
+  display: flex;
+}
+#arrow > img {
+  width: 7vw;
+  height: 7vh;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
